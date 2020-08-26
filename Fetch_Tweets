@@ -21,4 +21,4 @@ if _name_ == '_main_':
     user = input("Enter username:")
     client = get_twitter_client()
     for status in tweepy.Cursor(client.home_timeline, screen_name=user).items():
-        print(status.text
+        print(status.text)
